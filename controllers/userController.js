@@ -103,7 +103,3 @@ exports.deleteUser = (req, res) => {
       }
   });
 };
-
-
-
-// Adicione mais métodos para read, update e delete
