@@ -21,25 +21,19 @@ Esta API permite gerenciar usuários, fornecendo funcionalidades como criação,
 <h2> Instalação </h2>
 
 1. Clone este repositório:
-   <code>
-   git clone https://github.com/davijunior/user_management.git
-   cd user_management
-   </code>
+   <code>git clone https://github.com/davijunior/user_management.git
+   cd user_management</code>
 
 2. Configure o arquivo .env na raiz do projeto com as variáveis de ambiente necessárias:
 
-    <code>
-    PORT=3000
+    <code>PORT=3000
     DB_HOST=mysql
     DB_USER=root
     DB_PASSWORD=rootpassword
     DB_NAME=user_registration
-    JWT_SECRET=sua_chave_secreta
-    </code>
+    JWT_SECRET=sua_chave_secreta</code>
 3. Suba os container (utilize o comando abaixo para que o container faça um refresh ao alterar o código)
-    <code>
-    docker-compose up --build
-    </code>
+    <code>docker-compose up --build</code>
 
 4. A API estará disponível em http://localhost:3000
 
