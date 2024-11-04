@@ -49,7 +49,6 @@ Esta API permite gerenciar usuários, fornecendo funcionalidades como criação,
     POST /api/users
 
     Payload
-    <code>
     {
         "cpf": "12345678901",
         "nome": "João da Silva",
@@ -58,18 +57,15 @@ Esta API permite gerenciar usuários, fornecendo funcionalidades como criação,
         "senha": "minhaSenhaSegura",
         "usuario_criacao": "admin"
     }
-    </code>
 
 <h3> Login </h3>
     POST /api/login
 
     Payload
-    <code>
     {
         "cpf": <CPF>,
         "senha": <Senha>
     }
-    </code>
     O login traz como resposta o token a ser usado em outras requisiçoes
 
 <h3> Listar Usuários </h3>
@@ -93,7 +89,6 @@ Esta API permite gerenciar usuários, fornecendo funcionalidades como criação,
 
     Authorization: <Seu token>
     Payload
-    <code>
     {
         "cpf": "12345678901",
         "nome": "João da Silva",
@@ -101,7 +96,6 @@ Esta API permite gerenciar usuários, fornecendo funcionalidades como criação,
         "endereco": "Rua das Flores, 123",
         "senha": "minhaSenhaSegura",
     }
-    </code>
 
 <h3> Deletar Usuário </h3>
     DELETE /api/users/:id
